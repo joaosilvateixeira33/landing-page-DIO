@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('./header.css');
+@import url('./course.css');
+@import url('./transform.css');
+@import url('./challenges.css');
+@import url('./footer.css');
+
+:root{
+    --color-grey-1: #000000;
+    ---color-grey-2: #FFFFFF;
+    --color-brand-1: #31A8DD;
+    --color-brand-2: #33A8DB;
+    --font-general: "Raleway", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-general);
+    color: var(---color-grey-2);
+}
+
+body{
+    background-color: var(--color-grey-1);
+    font-family: var(--font-general);
+}
+
+section{
+    padding: 40px;
+}
